@@ -13,12 +13,11 @@ import { EmailService } from './email.service';
         port: 465,
         secure: true,
         auth: {
-          user: 'b.adityaaditya98@gmail.com',
-          pass: 'nenl xstc mkil tttm',
+
         },
       },
       defaults: {
-        from: 'Aditya Boddu <your-email@gmail.com>',
+        from: '<your-email@gmail.com>',
       },
       template: {
         dir: join(__dirname, '..', 'templates'),
